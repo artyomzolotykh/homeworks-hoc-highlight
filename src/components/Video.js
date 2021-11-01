@@ -1,5 +1,3 @@
-import Hoc from "../hoc/Hoc";
-
 function Video(props) {
   return (
       <div className="item item-video">
@@ -9,4 +7,4 @@ function Video(props) {
   )
 };
 
-export default Hoc(Video);
+export default Video;

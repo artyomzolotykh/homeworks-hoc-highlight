@@ -1,5 +1,3 @@
-import Hoc from "../hoc/Hoc";
-
 function Article(props) {
   return (
       <div className="item item-article">
@@ -9,4 +7,4 @@ function Article(props) {
   )
 };
 
-export default Hoc(Article);
+export default Article;

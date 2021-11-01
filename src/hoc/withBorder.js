@@ -1,7 +1,7 @@
 import New from "../components/New";
 import Popular from "../components/Popular";
 
-const Hoc = (Component) => {
+const withBorder = (Component) => {
   return (props) => {
 
     if (props.views < 100) {
@@ -25,4 +25,4 @@ const Hoc = (Component) => {
   }
 }
 
-export default Hoc;
+export default withBorder;

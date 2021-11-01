@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import List from './components/List';
+import UpgradedList from './components/UpgradedList';
 
 export default function App() {
     const [list, setList] = useState([
@@ -36,6 +36,6 @@ export default function App() {
     ]);
 
     return (
-        <List list={list} />
+        <UpgradedList list={list} />
     );
 }
